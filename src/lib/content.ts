@@ -11,7 +11,7 @@ export const nav = [
   { label: "NanoSkinBio", href: "#sobre" },
   { label: "Protocolos", href: "#protocolos" },
   { label: "Guia Prático", href: "/guia-pratico" },
-  { label: "Contato", href: "/contato" },
+  { label: "Contato", href: "#contato" },
 ] as const;
 
 export const hero = {
@@ -132,7 +132,7 @@ export const numbers = {
     {
       value: "18",
       unit: "meses",
-      label: "resultados que podem durar até 18 meses",
+      label: "Resultados que podem durar até 18 meses",
     },
   ],
 };

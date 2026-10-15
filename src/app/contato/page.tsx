@@ -14,7 +14,7 @@ export default function ContatoPage() {
     <>
       <Header />
       <main>
-        <Contact />
+        <Contact standalone />
       </main>
       <Footer />
     </>
