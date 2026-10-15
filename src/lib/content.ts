@@ -106,7 +106,7 @@ export const technology = {
 
 export const results = {
   eyebrow: "Resultados",
-  title: "Caso clínico",
+  title: "Casos clínico",
   body: "Transformações observadas ao longo dos protocolos profissionais NanoSkinBio, com melhora progressiva da textura, firmeza e qualidade da pele.",
   disclaimer:
     "Casos clínicos individuais — observação de casos clínicos, não constitui prova de eficácia; resultados variam conforme o paciente.",
@@ -386,7 +386,7 @@ export const faq = {
     {
       question: "NanoSkinBio® é injetável ou tópico?",
       answer:
-        "Atualmente disponível como produto tópico em suas versão profissional: NSB MED para uso médico e estético.",
+        "NanoSkinBio Med é de uso tópico e profissional por médicos, profissionais de saúde e estética",
     },
     {
       question: "NanoSkinBio® é seguro?",
@@ -406,7 +406,7 @@ export const faq = {
     {
       question: "Quem pode usar NanoSkinBio®?",
       answer:
-        "Destina-se a médicos, médicos estéticos e profissionais estéticos certificados. A linha Home Care permitirá uso por consumidores sob orientação profissional.",
+        "Destina-se a médicos, profissionais da saúde e estética devidamente certificados.",
     },
     {
       question: "Em que indicações pode ser aplicado?",
