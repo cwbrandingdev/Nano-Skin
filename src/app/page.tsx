@@ -9,6 +9,7 @@ import { About } from "@/components/sections/About";
 import { Recognition } from "@/components/sections/Recognition";
 import { Protocols } from "@/components/sections/Protocols";
 import { Business } from "@/components/sections/Business";
+import { Contact } from "@/components/sections/Contact";
 import { FAQ } from "@/components/sections/FAQ";
 import { FinalCta } from "@/components/sections/FinalCta";
 
@@ -26,6 +27,7 @@ export default function Home() {
         <Recognition />
         <Protocols />
         <Business />
+        <Contact />
         <FAQ />
         <FinalCta />
       </main>

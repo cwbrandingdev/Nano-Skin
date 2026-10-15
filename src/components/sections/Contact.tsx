@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import Script from "next/script";
+import clsx from "clsx";
 import { contact } from "@/lib/content";
 import { Container } from "@/components/ui/Container";
 import { Eyebrow } from "@/components/ui/Eyebrow";
@@ -29,7 +30,7 @@ function loadTallyEmbeds() {
   });
 }
 
-export function Contact() {
+export function Contact({ standalone = false }: { standalone?: boolean }) {
   useEffect(() => {
     (window as TallyWindow).Tally?.loadEmbeds();
   }, []);
@@ -37,7 +38,12 @@ export function Contact() {
   return (
     <section
       id="contato"
-      className="relative overflow-hidden bg-azure-900 pb-32 pt-40 md:pb-44 md:pt-48"
+      className={clsx(
+        "relative overflow-hidden bg-azure-900",
+        standalone
+          ? "pb-32 pt-40 md:pb-44 md:pt-48"
+          : "border-t border-bone-50/10 py-32 md:py-40",
+      )}
     >
       <GlowOrb
         className="-right-40 -top-32"
