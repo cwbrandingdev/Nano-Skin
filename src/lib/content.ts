@@ -106,7 +106,7 @@ export const technology = {
 
 export const results = {
   eyebrow: "Resultados",
-  title: "Casos clínico",
+  title: "Casos clínicos",
   body: "Transformações observadas ao longo dos protocolos profissionais NanoSkinBio, com melhora progressiva da textura, firmeza e qualidade da pele.",
   disclaimer:
     "Casos clínicos individuais — observação de casos clínicos, não constitui prova de eficácia; resultados variam conforme o paciente.",
@@ -217,11 +217,6 @@ export const contact = {
       label: "E-mail",
       value: "contato@nanoskinbiobrasil.com.br",
       href: "mailto:contato@nanoskinbiobrasil.com.br",
-    },
-    {
-      label: "Telefone",
-      value: "41 3057-8800",
-      href: "tel:+554130578800",
     },
     {
       label: "Telefone",
@@ -386,7 +381,7 @@ export const faq = {
     {
       question: "NanoSkinBio® é injetável ou tópico?",
       answer:
-        "NanoSkinBio Med é de uso tópico e profissional por médicos, profissionais de saúde e estética",
+        "NanoSkinBio Med é de uso tópico e profissional por médicos, profissionais de saúde e estética.",
     },
     {
       question: "NanoSkinBio® é seguro?",
