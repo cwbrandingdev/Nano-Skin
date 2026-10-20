@@ -139,12 +139,12 @@ export const numbers = {
 
 export const about = {
   eyebrow: "NanoSkinBio",
-  title: "Conceito Suíço. Ciência, precisão e padrão de luxo.",
+  title: "Conceito Suíço. Ciência, precisão e padrão profissional de elite.",
   body: "Desenvolvida em Zug, na Suíça, a NanoSkinBio segue um padrão globalmente reconhecido, focado em qualidade, eficácia, segurança, rastreabilidade e prestígio regulatório.",
   points: [
     "Conceito suíço (Swiss Concept)",
     "Primeira no mundo com nano-hidroxiapatita de cálcio (CaHA)",
-    "Tecnologia não injetável, com inflamação controlada",
+    "Tecnologia não injetável e não inflamatória",
     "Peptídeos Bioativos",
     "Ácido Hialurônico Multi-profundidade",
     "Tecnologia Biomimética",
