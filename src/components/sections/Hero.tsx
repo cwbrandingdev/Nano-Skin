@@ -136,12 +136,7 @@ export function Hero() {
               <Button href="#tecnologia" tone="light" variant="primary">
                 {hero.ctaPrimary}
               </Button>
-              <Button
-                href="#protocolos"
-                tone="light"
-                variant="primary"
-                className="!bg-white text-red-700"
-              >
+              <Button href="#protocolos" tone="light" variant="primary">
                 Entrar em contato
               </Button>
               <Button href="#protocolos" tone="light" variant="ghost">
