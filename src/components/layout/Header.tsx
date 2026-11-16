@@ -130,6 +130,7 @@ export function Header() {
               alt={officialImages.logo.alt}
               width={56}
               height={56}
+              priority
               className="h-11 w-auto shrink-0 md:h-14"
             />
             NanoSkinBio

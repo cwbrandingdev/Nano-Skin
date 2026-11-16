@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Fraunces, Inter } from "next/font/google";
 import localFont from "next/font/local";
+import { homeDescription, homeTitle, siteName, siteUrl } from "@/lib/site";
 import "./globals.css";
 
 const fraunces = Fraunces({
@@ -24,47 +25,60 @@ const cordiaNew = localFont({
   display: "swap",
 });
 
-const siteUrl = "https://www.nanoskinbiobrasil.com.br";
-const siteTitle = "NanoSkinBio — Biomimetic Skin Technology";
-const siteDescription =
-  "Uma nova geração de tecnologia biomimética para a pele: nano-hidroxiapatita, ácido hialurônico multi-profundidade e peptídeos biomiméticos.";
-const ogImage = "/images/og/og-default.jpg";
-
+// Canonical e Open Graph ficam em cada página (via `pageMetadata`), para que
+// as rotas internas não herdem os da home.
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: siteTitle,
-  description: siteDescription,
+  title: homeTitle,
+  description: homeDescription,
   keywords: [
     "NanoSkinBio",
+    "ativador de colágeno",
     "nano-hidroxiapatita",
     "ácido hialurônico multi-profundidade",
     "peptídeos biomiméticos",
-    "tecnologia biomimética para a pele ",
+    "tecnologia biomimética para a pele",
+    "microagulhamento",
   ],
-  alternates: {
-    canonical: `${siteUrl}/`,
-  },
-  openGraph: {
-    title: siteTitle,
-    description: siteDescription,
-    url: `${siteUrl}/`,
-    siteName: "NanoSkinBio",
-    locale: "pt_BR",
-    type: "website",
-    images: [
-      {
-        url: ogImage,
-        width: 1200,
-        height: 630,
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: siteTitle,
-    description: siteDescription,
-    images: [ogImage],
-  },
+};
+
+const organizationJsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": `${siteUrl}/#organization`,
+      name: siteName,
+      url: `${siteUrl}/`,
+      logo: `${siteUrl}/images/brand/logo-shield.png`,
+      email: "contato@nanoskinbiobrasil.com.br",
+      sameAs: ["https://www.instagram.com/nanoskinbiobrasil/"],
+      contactPoint: [
+        {
+          "@type": "ContactPoint",
+          telephone: "+55-41-3206-8654",
+          contactType: "customer service",
+          areaServed: "BR",
+          availableLanguage: "Portuguese",
+        },
+        {
+          "@type": "ContactPoint",
+          telephone: "+55-11-92567-5536",
+          contactType: "sales",
+          areaServed: "BR",
+          availableLanguage: "Portuguese",
+        },
+      ],
+    },
+    {
+      "@type": "WebSite",
+      "@id": `${siteUrl}/#website`,
+      name: siteName,
+      url: `${siteUrl}/`,
+      inLanguage: "pt-BR",
+      publisher: { "@id": `${siteUrl}/#organization` },
+    },
+  ],
 };
 
 export default function RootLayout({
@@ -77,6 +91,10 @@ export default function RootLayout({
       <body
         className={`${fraunces.variable} ${inter.variable} ${cordiaNew.variable} bg-azure-950 font-sans text-ink-900 antialiased`}
       >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+        />
         {children}
       </body>
     </html>

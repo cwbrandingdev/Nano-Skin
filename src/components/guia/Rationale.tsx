@@ -10,6 +10,8 @@ export function Rationale() {
       <ArcLine className="-bottom-48 -right-48 h-[520px] w-[520px]" color="#729bf0" opacity={0.14} />
 
       <Container className="relative">
+        {/* Título da página para buscadores e leitores de tela — invisível no layout. */}
+        <h1 className="sr-only">Guia Prático NanoSkinBio — Diretrizes de profundidade para microagulhamento</h1>
         <div className="max-w-6xl border-l border-azure-300/30 pl-6 md:pl-8">
           <Reveal>
             <p className="font-mono text-[11px] uppercase tracking-widest2 text-azure-300">

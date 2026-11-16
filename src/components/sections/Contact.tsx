@@ -63,7 +63,7 @@ export function Contact({ standalone = false }: { standalone?: boolean }) {
             <Eyebrow tone="light">{contact.eyebrow}</Eyebrow>
           </Reveal>
           <TextReveal
-            as="h2"
+            as={standalone ? "h1" : "h2"}
             text={contact.title}
             delay={0.1}
             className="mt-7 font-display text-[9vw] font-light leading-[1.05] tracking-tightest text-bone-50 sm:text-[6vw] md:text-[3.4vw]"

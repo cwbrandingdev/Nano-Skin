@@ -105,61 +105,61 @@ export const images = {
       {
         before: {
           src: "/images/results/pair-1-before.jpg",
-          alt: "Antes — região periorbital, fotografia clínica NanoSkinBio",
+          alt: "Antes — caso 1, região periorbital, fotografia clínica NanoSkinBio",
         },
         after: {
           src: "/images/results/pair-1-after.jpg",
-          alt: "Depois — região periorbital revitalizada, fotografia clínica NanoSkinBio",
+          alt: "Depois — caso 1, região periorbital revitalizada, fotografia clínica NanoSkinBio",
         },
       },
       {
         before: {
           src: "/images/results/pair-2-before.jpg",
-          alt: "Antes — região periorbital, fotografia clínica NanoSkinBio",
+          alt: "Antes — caso 2, região periorbital, fotografia clínica NanoSkinBio",
         },
         after: {
           src: "/images/results/pair-2-after.jpg",
-          alt: "Depois — região periorbital revitalizada, fotografia clínica NanoSkinBio",
+          alt: "Depois — caso 2, região periorbital revitalizada, fotografia clínica NanoSkinBio",
         },
       },
       {
         before: {
           src: "/images/results/pair-3-before.jpg",
-          alt: "Antes — região periorbital, fotografia clínica NanoSkinBio",
+          alt: "Antes — caso 3, região periorbital, fotografia clínica NanoSkinBio",
         },
         after: {
           src: "/images/results/pair-3-after.jpg",
-          alt: "Depois — região periorbital revitalizada, fotografia clínica NanoSkinBio",
+          alt: "Depois — caso 3, região periorbital revitalizada, fotografia clínica NanoSkinBio",
         },
       },
       {
         before: {
           src: "/images/results/pair-4-before.jpg",
-          alt: "Antes — fotografia clínica NanoSkinBio",
+          alt: "Antes — caso 4, fotografia clínica NanoSkinBio",
         },
         after: {
           src: "/images/results/pair-4-after.jpg",
-          alt: "Depois — fotografia clínica NanoSkinBio, resultado do protocolo",
+          alt: "Depois — caso 4, fotografia clínica NanoSkinBio, resultado do protocolo",
         },
       },
       {
         before: {
           src: "/images/results/pair-5-before.jpg",
-          alt: "Antes — fotografia clínica NanoSkinBio",
+          alt: "Antes — caso 5, fotografia clínica NanoSkinBio",
         },
         after: {
           src: "/images/results/pair-5-after.jpg",
-          alt: "Depois — fotografia clínica NanoSkinBio, resultado do protocolo",
+          alt: "Depois — caso 5, fotografia clínica NanoSkinBio, resultado do protocolo",
         },
       },
       {
         before: {
           src: "/images/results/pair-6-before.jpg",
-          alt: "Antes — fotografia clínica NanoSkinBio",
+          alt: "Antes — caso 6, fotografia clínica NanoSkinBio",
         },
         after: {
           src: "/images/results/pair-6-after.jpg",
-          alt: "Depois — fotografia clínica NanoSkinBio, resultado do protocolo",
+          alt: "Depois — caso 6, fotografia clínica NanoSkinBio, resultado do protocolo",
         },
       },
     ],
@@ -213,13 +213,13 @@ export const images = {
       },
       {
         src: "/images/antes-depois/perfil-1.jpg",
-        alt: "Antes e depois do protocolo NanoSkinBio, perfil facial — fotografia clínica",
+        alt: "Antes e depois do protocolo NanoSkinBio, perfil facial (caso 1) — fotografia clínica",
         label: "Perfil facial",
         objectPosition: "50% 40%",
       },
       {
         src: "/images/antes-depois/perfil-2.jpg",
-        alt: "Antes e depois do protocolo NanoSkinBio, perfil facial — fotografia clínica",
+        alt: "Antes e depois do protocolo NanoSkinBio, perfil facial (caso 2) — fotografia clínica",
         label: "Perfil facial",
         objectPosition: "50% 40%",
       },
